@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompGraphLab1", "CompGraphLab1\CompGraphLab1.csproj", "{4446B594-0CF6-4A14-A9FF-ED2F4FD2E70A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4446B594-0CF6-4A14-A9FF-ED2F4FD2E70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4446B594-0CF6-4A14-A9FF-ED2F4FD2E70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4446B594-0CF6-4A14-A9FF-ED2F4FD2E70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4446B594-0CF6-4A14-A9FF-ED2F4FD2E70A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AE6B18A-D968-4D07-9B16-5662F9063CD1}
+	EndGlobalSection
+EndGlobal
