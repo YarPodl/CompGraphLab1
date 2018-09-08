@@ -15,6 +15,29 @@ namespace CompGraphLab1
         public Form1()
         {
             InitializeComponent();
+            
+        }
+
+        Castle castle = new Castle();
+        
+        /// <summary>
+        /// Отрисовка
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void pictureBox1_Paint(object sender, PaintEventArgs e)
+        {
+            castle.Draw(e.Graphics, trackBar1.Value, trackBar4.Value, trackBar2.Value, trackBar3.Value);
+        }
+
+        /// <summary>
+        /// Перерисовка
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void pictureBox1_Resize(object sender, EventArgs e)
+        {
+            pictureBox1.Refresh();
         }
     }
 }
